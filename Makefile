@@ -39,4 +39,4 @@ clear:
 	go clean -cache -modcache -i -r
 
 debug: tidy
-	@go run ./cmd/demo.go
+	@go run ./cmd/main.go
